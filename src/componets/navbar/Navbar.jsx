@@ -47,6 +47,7 @@ const Navbar = () => {
       }
     }
     setUser(getUserfromLocalStorage())
+    // eslint-disable-next-line
   }, [location])
  
   return (
