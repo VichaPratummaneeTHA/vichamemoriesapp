@@ -6,8 +6,8 @@ export default makeStyles((theme) => ({
       flexDirection: 'column-reverse',
     },
     innerContainer: {
-      margin : '16px 0 24px 0',
-      minHeight: '600px'
+      margin : '16px 0 16px 0',
+      Height: '100%'
     }
   },
 }))

@@ -52,19 +52,21 @@ const Navbar = () => {
  
   return (
     <AppBar className={classes.appBar} position='static' color='inherit'>
-    <div className={classes.brandContainer}>
-      <Typography  
-        className={classes.heading} 
-        component={Link} to='/'
-        variant='h4' 
-        align='center'>Vicha Memories Blog
-      </Typography>
-      <img 
-        className={classes.image} 
-        src={imageAppbar} 
-        alt="icon" 
-        height='40'/>
-    </div>
+          <div className={classes.brandContainer}>
+            <Typography  
+              className={classes.heading} 
+              component={Link} to='/'
+              variant='h4' 
+              align='center'>Vicha Memories Blog
+            </Typography>
+
+            <img 
+              className={classes.image} 
+              src={imageAppbar} 
+              alt="icon" 
+              height='40'/>
+              
+          </div>
 
     <Toolbar className={classes.toolbar}>
     {

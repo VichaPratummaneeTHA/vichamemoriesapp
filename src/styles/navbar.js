@@ -41,16 +41,33 @@ export default makeStyles((theme) => ({
     backgroundColor: deepPurple[500],
   },
   [theme.breakpoints.down('sm')]:{
-    appBar:{
-      visibility: 'hidden',
-      margin: '-30px 0',
+    appBar: {
+      display: 'flex',
+      flexDirection: 'column',
     },
-    mainContainer: {
-      flexDirection: 'column-reverse',
+    brandContainer: {
+      display: 'flex',
+      flexDirection: 'column'
     },
-    innerContainer: {
-      margin : '16px 0 24px 0',
-      minHeight: '600px'
-    }
+    image : {
+      display: 'none',
+    },
+    heading : {
+      fontSize: '1.2rem'
+    },
+    toolbar: {
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+    },
+    profile: {
+      display: 'flex',
+      justifyContent: 'space-between',
+      width: '300px',
+      alignItems: 'center',
+    },
+    userName: {
+      fontSize: '1rem'
+    },
   },
 }));
